@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Chargeurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Liste des Chargeurs</h1>
+
+    <!-- Champ de recherche -->
+    <input type="text" id="search" placeholder="Rechercher un chargeur" oninput="searchTable()" />
+
+    <!-- Tableau pour afficher les données -->
+    <table>
+        <thead>
+            <tr>
+                <th>Chargeur</th>
+                <th>Phone</th>
+                <th>Localisation</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Les lignes du tableau seront ajoutées ici par JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
